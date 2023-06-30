@@ -150,35 +150,15 @@ thead th::after {
   z-index: 1;
 }
 
-@media print {
-  /* Adjust table styles for printing */
-  .reportTable {
-    font-size: 1px;
-    page-break-inside: auto; /* Allow table to span multiple pages */
-	 overflow: visible !important;
-  }
 
-  /* Adjust table header styles for printing */
-  table.reportTable th {
-    font-size: 1px;
-  }
-
-  /* Ensure table rows are not split across pages */
-  table.reportTable tr {
-    page-break-inside: avoid;
-  }
-
-  /* Add any other styles specific to printing */
-}
 
 @media print {
 #visContainer {
-    /* width: 100%; */
+    width: 100%;
     height: auto;
     overflow: visible !important;
     display: block;
     flex-direction: column;
-    font-size: 5px;
 }
 }
 
