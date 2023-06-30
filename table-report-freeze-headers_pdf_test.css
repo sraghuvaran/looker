@@ -178,6 +178,7 @@ thead th::after {
     overflow: visible !important;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 
