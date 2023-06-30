@@ -155,10 +155,15 @@ thead th::after {
 @media print {
 #visContainer {
     width: 100%;
-    height: auto;
+    height: 100%;
     overflow: visible !important;
-    display: block;
+    display: flex;
     flex-direction: column;
+    position: relative !important;
+}
+
+#visContainer {
+font-size: 10px;
 }
 }
 
