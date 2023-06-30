@@ -162,7 +162,7 @@ thead th::after {
     position: relative !important;
 }
 
-#visContainer {
+#visContainer, #visContainer *  {
 font-size: 10px;
 }
 }
