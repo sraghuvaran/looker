@@ -162,4 +162,25 @@ thead th::after {
 }
 }
 
+@media print {
+  /* Adjust table styles for printing */
+  .reportTable {
+    font-size: 1px;
+    page-break-inside: auto; /* Allow table to span multiple pages */
+	 overflow: visible !important;
+  }
+
+  /* Adjust table header styles for printing */
+  table.reportTable th {
+    font-size: 1px;
+  }
+
+  /* Ensure table rows are not split across pages */
+  table.reportTable tr {
+    page-break-inside: avoid;
+  }
+
+  /* Add any other styles specific to printing */
+}
+
 
