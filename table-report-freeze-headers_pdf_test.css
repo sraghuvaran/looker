@@ -203,8 +203,7 @@ div#styled-tile-dashboard {
     width: 100% !important;
     height: 100% !important;
     overflow: visible !important;
-    display: flex !important;
-    flex-direction: column !important;
+    display: contents !important;
     position: relative !important;
 }
 }
