@@ -199,12 +199,12 @@ font-size: 10px;
 }
 
 @media print {
-#styled-tile-dashboard {
-    width: 100%;
-    height: 100%;
+div#styled-tile-dashboard {
+    width: 100% !important;
+    height: 100% !important;
     overflow: visible !important;
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
     position: relative !important;
 }
 }
